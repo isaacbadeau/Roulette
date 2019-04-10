@@ -29,7 +29,7 @@ namespace Roulette
 
                 IfWin(odd, even, red, black, firstTwelve, secondTwelve, thirdTwelve, oneToEighteen, nineteenToThirtysix, firstThird, secondThird, thirdThird);
                 
-                Console.WriteLine("Continue?");
+                Console.WriteLine("Press enter to continue or type quit to exit");
                 var response = Console.ReadLine();
                 Console.WriteLine();
                 
